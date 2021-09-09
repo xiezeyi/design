@@ -7,7 +7,7 @@ public class User implements  Cloneable{
     private Integer age;
 
     public User() {
-        System.out.println("创建了User");
+        System.out.println("构造器创建了User");
     }
 
     public String getUsername() {
@@ -41,9 +41,10 @@ public class User implements  Cloneable{
      */
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        User user = new User();
-        user.setUsername(username);
-        user.setAge(age);
-        return user;
+//        User user = new User();
+//        user.setUsername(username);
+//        user.setAge(age);
+//        return user;
+        return super.clone();
     }
 }

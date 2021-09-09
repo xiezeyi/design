@@ -20,7 +20,7 @@ public class MainTest {
         User user1 = mybatis.getUser("12");
         System.out.println("user1 = " + user1);
         user1.setUsername("666");
-        System.out.println("user = " + user1);
+        System.out.println("user1 = " + user1);
         User user2 = mybatis.getUser("12");
         System.out.println("user2 = " + user2);
 
