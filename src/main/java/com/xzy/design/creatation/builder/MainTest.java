@@ -5,13 +5,21 @@ public class MainTest {
         AbstractBuilder builder = new XiaomiBuilder();
 
         // 建造这个手机
-        builder.customMem("16G");
-        builder.customDisk("1T");
-        builder.customCam("2亿");
-        builder.customCpu("晓龙8个8");
+//        builder.customMem("16G");
+//        builder.customDisk("1T");
+//        builder.customCam("2亿");
+//        builder.customCpu("xiaolong");
+//
+//        Phone product = builder.getProduct();
+//
+//        System.out.println(product.toString());
 
-        Phone product = builder.getProduct();
-
-        System.out.println(product.toString());
+        Phone phone = builder.
+                customMem("16G").
+                customDisk("1T").
+                customCam("2亿").
+                customCpu("xiaolong")
+                .getProduct();
+        System.out.println(phone);
     }
 }

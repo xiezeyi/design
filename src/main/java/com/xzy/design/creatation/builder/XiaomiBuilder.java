@@ -6,22 +6,26 @@ public class XiaomiBuilder extends AbstractBuilder {
     }
 
     @Override
-    void customCpu(String cpu) {
+    AbstractBuilder customCpu(String cpu) {
         phone.cpu = cpu;
+        return this;
     }
 
     @Override
-    void customMem(String mem) {
+    AbstractBuilder customMem(String mem) {
         phone.mem = mem;
+        return this;
     }
 
     @Override
-    void customDisk(String disk) {
+    AbstractBuilder customDisk(String disk) {
         phone.disk = disk;
+        return this;
     }
 
     @Override
-    void customCam(String cam) {
+    AbstractBuilder customCam(String cam) {
         phone.cam = cam;
+        return this;
     }
 }
