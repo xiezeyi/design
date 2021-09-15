@@ -1,4 +1,4 @@
-package main.java.com.xzy.design.creatation.builder;
+package com.xzy.design.creatation.builder;
 
 public class MainTest {
     public static void main(String[] args) {

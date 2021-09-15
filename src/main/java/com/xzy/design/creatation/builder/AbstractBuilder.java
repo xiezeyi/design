@@ -1,4 +1,4 @@
-package main.java.com.xzy.design.creatation.builder;
+package com.xzy.design.creatation.builder;
 
 /**
  * 抽象建造者
