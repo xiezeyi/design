@@ -14,12 +14,21 @@ public class MainTest {
 //
 //        System.out.println(product.toString());
 
-        Phone phone = builder.
-                customMem("16G").
-                customDisk("1T").
-                customCam("2亿").
-                customCpu("xiaolong")
-                .getProduct();
-        System.out.println(phone);
+//        Phone phone = builder.
+//                customMem("16G").
+//                customDisk("1T").
+//                customCam("2亿").
+//                customCpu("xiaolong")
+//                .getProduct();
+//        System.out.println(phone);
+
+        Phone phoneBuilder = Phone.builder()
+                .cpu("1")
+                .cam("2")
+                .mem("3")
+                .disk("4")
+                .build();
+        System.out.println("phoneBuilder = " + phoneBuilder);
+
     }
 }

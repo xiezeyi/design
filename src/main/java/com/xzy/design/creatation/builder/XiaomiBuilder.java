@@ -2,7 +2,8 @@ package com.xzy.design.creatation.builder;
 
 public class XiaomiBuilder extends AbstractBuilder {
     public XiaomiBuilder() {
-        phone = new Phone();
+//        phone = new Phone();
+        phone = Phone.builder().build();
     }
 
     @Override

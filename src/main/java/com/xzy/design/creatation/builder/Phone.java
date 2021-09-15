@@ -1,5 +1,15 @@
 package com.xzy.design.creatation.builder;
 
+
+import lombok.Builder;
+import lombok.NoArgsConstructor;
+
+//@Getter
+//@Setter
+//@Data
+//@NoArgsConstructor
+//@AllArgsConstructor
+@Builder
 public class Phone {
 
     protected String cpu;
