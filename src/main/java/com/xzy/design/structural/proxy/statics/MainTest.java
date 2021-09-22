@@ -1,5 +1,8 @@
 package com.xzy.design.structural.proxy.statics;
 
+/**
+ * 代理的东西不一样，每一种不同的被代理类Person,Dog,Cat，这里就需要创建不同的类，使用动态代理可以更好的解决该情况
+ */
 public class MainTest {
     public static void main(String[] args) {
         TikTokProxy tikTokProxy = new TikTokProxy(new XieTikTok());
